@@ -9,7 +9,7 @@ const gulp = require('gulp'),
 
 // Compiles all SASS files
 gulp.task('sass', () => {
-  return gulp.src('src/sass/**/*.scss')
+  return gulp.src('src/scss/**/*.scss')
     .pipe(plumber())
     .pipe(sass({
       outputStyle: 'compressed',
@@ -41,7 +41,7 @@ gulp.task('watch', () => {
     notify: false,
   });
 
-  gulp.watch('src/sass/**/*.scss', ['sass']);
+  gulp.watch('src/scss/**/*.scss', ['sass']);
   gulp.watch('src/img/**/*', ['images']);
   gulp.watch(['dist/*.html', 'dist/css/*.css']).on('change', browserSync.reload);
 });
