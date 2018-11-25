@@ -24,7 +24,7 @@ Gulp-imagemin takes all images from src/img and minifies them. The minified imag
 Browser-sync is used to watch for changes to any css or html file. The browser will reload on any change. In order to use live reload, use
 `localhost:3000` within your browser's address bar. The port may change, so make sure to check which port is being used within your terminal window.
 
-## Dependecies
+## Dependencies
 * Font Awesome 5.5.0
 * Bootstrap 4.1.3
 * Animate.css
