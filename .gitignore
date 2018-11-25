@@ -6,8 +6,7 @@
 # Ignore node_modules
 node_modules
 
-# Ignore Bootstrap 4 source files
-bootstrap
+
 
 # Icon must end with two \r
 Icon
