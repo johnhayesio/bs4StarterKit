@@ -15,7 +15,7 @@ npm start
 ```
 
 ## Sass Compiling/Minification
-Gulp-sass handles compiling sass files and minifying them into css/main.min.css. If you wish to not use sass, rename css/main.min.css to main.css and include your own styling within that file. Also, change the stylesheet to main.css within the index.html file.
+Gulp-sass handles compiling sass files and minifying them into css/main.min.css. If you do not want to use sass, then write you css in src/scss/main.scss under the two @import. Do NOT remove the imports at the top of the file as this imports Bootstrap 4 and will break your project.
 
 ## Image Minification
 Gulp-imagemin takes all images from src/img and minifies them. The minified images are then moved to dist/img for use within your project.
