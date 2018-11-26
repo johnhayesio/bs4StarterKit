@@ -28,6 +28,5 @@ Browser-sync is used to watch for changes to any css or html file. The browser w
 * Font Awesome 5.5.0
 * Bootstrap 4.1.3
 * Animate.css
-* Main.min.css
 * jQuery 3.3.1
 * Popper.js
